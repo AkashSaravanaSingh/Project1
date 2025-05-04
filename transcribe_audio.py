@@ -1,13 +1,13 @@
 import whisper
 
-def transcribe_audio(file_path):
-    # Load Whisper model
-    model = whisper.load_model("base")
+model = whisper.load_model("base")
 
-    # Transcribe audio file
-    result = model.transcribe(file_path)
+def transcribe_audio(file_path):
+    print(f"Transcribing file: {file_path}")
+    result = model.transcribe(file_path, fp16=False, verbose=True)
+    print("Full Whisper Output:", result)
     return result["text"]
 
-# Transcribe the recorded audio (output.wav)
+# Transcribe the recorded audio
 transcribed_text = transcribe_audio("output.wav")
-print("Transcription:\n", transcribed_text)
+print("\nTranscription:\n", transcribed_text)
