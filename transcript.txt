@@ -1,0 +1,35 @@
+sample_transcript = """
+Good morning everyone. Thank you all for joining today's meeting. Let's begin with a quick review of last week’s goals. Our primary objectives were finalizing the user onboarding flow, pushing the API update for version 2.3, and preparing marketing content for the September product launch.
+
+Starting with the design team, Priya, can you update us?
+
+Yes, sure. We've completed the revisions based on feedback from last week. The updated onboarding screens have been finalized and handed off to the development team. We also coordinated with the accessibility consultant to ensure all onboarding components meet compliance requirements. The handoff happened yesterday, so devs should now have everything they need.
+
+Thank you, Priya. Development team—Ravi?
+
+We’ve started integrating the new onboarding flow into the mobile app. There were some integration issues with the custom animation libraries, but we resolved most of them by updating to the latest build. We're estimating another 2–3 days to complete testing and push to staging. Also, the API version 2.3 is stable. We pushed it to the test environment yesterday, and QA has started validation.
+
+Great. QA team—Anjali, any blockers?
+
+Nothing major. We’ve identified two bugs in the onboarding animation transitions and a timeout issue with the new API endpoint. We've reported them to dev, and fixes are in progress. We're also doing regression testing across iOS and Android to ensure no legacy features are broken.
+
+Marketing update—Sanjay?
+
+The launch campaign content is 80% complete. The remaining visuals will be finalized by Friday. We’re coordinating with the content writer and video production team for teaser trailers. Also, we’ve scheduled initial email blasts and social media posts for September 1st. Targeting outreach to early adopters and current subscribers.
+
+Awesome. Any input from sales?
+
+Yes. The sales team has been briefed on the product updates and new features. We’ve updated the demo scripts and FAQs. The team is also preparing a webinar for key clients next Thursday to walk through the changes.
+
+Thank you. A few announcements before we wrap up:
+
+1. We’ll conduct a UAT (User Acceptance Testing) session with a small focus group next Monday. Please make sure all bugs are resolved and new features are in staging before Friday.
+2. Security audit starts this Wednesday. Ensure all project files and dependencies are up to date.
+3. Reminder: all teams need to submit sprint retrospectives by Friday EOD.
+
+Any questions?
+
+None from us.
+
+Alright, that wraps up today’s meeting. Thank you all for your updates and efforts. Let's continue this momentum and aim for a smooth launch. Our next sync is scheduled for next Tuesday at 10 AM.
+"""

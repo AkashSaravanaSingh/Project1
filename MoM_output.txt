@@ -1,0 +1,6 @@
+📋 Minutes of Meeting (MoM):
+
+- API version 2.
+- 3 is stable, and QA has started validation.
+- Launch campaign content is 80% complete, and teaser trailers for September 1st.
+- Security audit starts this Wednesday.
