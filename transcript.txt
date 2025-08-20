@@ -1,35 +1,31 @@
-sample_transcript = """
-Good morning everyone. Thank you all for joining today's meeting. Let's begin with a quick review of last week’s goals. Our primary objectives were finalizing the user onboarding flow, pushing the API update for version 2.3, and preparing marketing content for the September product launch.
+[10:00 AM] Project Manager (Ravi): Good morning, everyone. Let’s begin the meeting. We’re here to review the progress on the client dashboard redesign project and discuss any blockers.
 
-Starting with the design team, Priya, can you update us?
+[10:01 AM] Client (Meena): Good morning, Ravi. Thanks for setting this up. We’ve gone through the last sprint update. Could you walk us through the completed features?
 
-Yes, sure. We've completed the revisions based on feedback from last week. The updated onboarding screens have been finalized and handed off to the development team. We also coordinated with the accessibility consultant to ensure all onboarding components meet compliance requirements. The handoff happened yesterday, so devs should now have everything they need.
+[10:02 AM] Developer (Arun): Sure. In Sprint 4, we completed the redesigned user analytics panel, implemented export to CSV functionality, and improved loading performance for the dashboard by over 30%. All these features have been pushed to staging.
 
-Thank you, Priya. Development team—Ravi?
+[10:04 AM] Client (Meena): That’s good to hear. We tested the analytics panel on staging. While it’s visually cleaner, the filtering options are still limited. Are we planning any enhancements for that?
 
-We’ve started integrating the new onboarding flow into the mobile app. There were some integration issues with the custom animation libraries, but we resolved most of them by updating to the latest build. We're estimating another 2–3 days to complete testing and push to staging. Also, the API version 2.3 is stable. We pushed it to the test environment yesterday, and QA has started validation.
+[10:05 AM] Ravi: Yes, filter enhancements are in the Sprint 5 backlog. We're aiming to make filters dynamic based on user roles. We can prioritize this if it’s critical.
 
-Great. QA team—Anjali, any blockers?
+[10:06 AM] Client (Meena): Please do. Also, the download CSV feature doesn’t currently support date range filters. Could we add that?
 
-Nothing major. We’ve identified two bugs in the onboarding animation transitions and a timeout issue with the new API endpoint. We've reported them to dev, and fixes are in progress. We're also doing regression testing across iOS and Android to ensure no legacy features are broken.
+[10:07 AM] Arun: That’s doable. I’ll create a ticket for it and plan for Sprint 5.
 
-Marketing update—Sanjay?
+[10:08 AM] QA Lead (Sneha): One update from QA — we found some inconsistencies in data refresh while switching between months in the chart view. Arun, I’ve added those in JIRA.
 
-The launch campaign content is 80% complete. The remaining visuals will be finalized by Friday. We’re coordinating with the content writer and video production team for teaser trailers. Also, we’ve scheduled initial email blasts and social media posts for September 1st. Targeting outreach to early adopters and current subscribers.
+[10:09 AM] Arun: Thanks, I’ll take a look.
 
-Awesome. Any input from sales?
+[10:10 AM] Ravi: Let’s move on to timelines. We’re currently one week behind due to the additional testing needed for the performance fixes. But we expect to complete Sprint 5 by next Friday.
 
-Yes. The sales team has been briefed on the product updates and new features. We’ve updated the demo scripts and FAQs. The team is also preparing a webinar for key clients next Thursday to walk through the changes.
+[10:11 AM] Meena: That works. Just make sure the filtering improvements are included, and we’ll test again after Sprint 5.
 
-Thank you. A few announcements before we wrap up:
+[10:12 AM] Ravi: Noted. Also, we’d like to schedule a demo next Thursday to walk you through the progress. Does 3 PM work?
 
-1. We’ll conduct a UAT (User Acceptance Testing) session with a small focus group next Monday. Please make sure all bugs are resolved and new features are in staging before Friday.
-2. Security audit starts this Wednesday. Ensure all project files and dependencies are up to date.
-3. Reminder: all teams need to submit sprint retrospectives by Friday EOD.
+[10:13 AM] Meena: Yes, 3 PM Thursday works.
 
-Any questions?
+[10:14 AM] Ravi: Great. As action items, we’ll update filters in analytics, add date range to CSV, and fix chart bugs. I’ll send the updated JIRA board by today EOD.
 
-None from us.
+[10:15 AM] Meena: Perfect. Thanks, team!
 
-Alright, that wraps up today’s meeting. Thank you all for your updates and efforts. Let's continue this momentum and aim for a smooth launch. Our next sync is scheduled for next Tuesday at 10 AM.
-"""
+[10:15 AM] Ravi: Thanks everyone. Meeting adjourned.
